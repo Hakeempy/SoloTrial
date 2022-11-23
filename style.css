@@ -38,6 +38,11 @@ nav {
     margin: 20px;
 }
 
+.list {
+    display: flex;
+}
+
+
 .sign__up {
     position: relative;
     margin-top: 20px;
