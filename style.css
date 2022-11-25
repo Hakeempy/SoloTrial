@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    margin: 20px;
+}
+
 img {
     color: black;
     height: 120px;
@@ -24,6 +28,7 @@ li {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 nav {
@@ -54,4 +59,16 @@ button {
     padding: 10px;
     border-radius: 40px;
     float: left;
+}
+
+a:hover {
+    color: coral;
+}
+
+#body__container {
+    display: flex;
+}
+
+.text {
+    width: 50%;
 }
