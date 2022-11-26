@@ -68,7 +68,7 @@ button {
     border-radius: 40px;
     float: left;
     border: none;
-    
+
 }
 
 a:hover {
@@ -81,7 +81,7 @@ button:hover {
     color: white;
 }
 
-img:hover {
+.img-item:hover {
     filter: grayscale(100%) blur(2px);
     transition: .4s ease-in-out;
 }
@@ -131,4 +131,26 @@ img:hover {
         flex: 100%;
         max-width: 100%;
     }
+}
+
+footer {
+    background-color: #242424;
+    height:400px;
+}
+
+.footer--row {
+    margin: 10px;
+    padding: 10px;
+}
+
+.social-media--list {
+    color: white;
+}
+
+.footer--logo {
+    align-items: center;
+}
+
+.social-media--list {
+    padding: 10px;
 }
