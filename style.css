@@ -14,6 +14,8 @@ section {
 img {
     color: black;
     height: 120px;
+    filter: grayscale(0) blur(0);
+    transition: .4s ease-in-out;
 }
 
 body {
@@ -66,6 +68,7 @@ button {
     border-radius: 40px;
     float: left;
     border: none;
+    
 }
 
 a:hover {
@@ -76,6 +79,11 @@ a:hover {
 button:hover {
     background-color: black;
     color: white;
+}
+
+img:hover {
+    filter: grayscale(100%) blur(2px);
+    transition: .4s ease-in-out;
 }
 
 #body__container {
@@ -109,6 +117,11 @@ button:hover {
     .column {
         flex: 50%;
         max-width: 50%;
+    }
+
+    .nav__bar {
+        font-size: 12px;
+        border-radius: 0;
     }
 }
 
