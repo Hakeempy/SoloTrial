@@ -84,3 +84,17 @@ button:hover {
 .text {
     width: 50%;
 }
+
+
+.row {
+    display: flex;
+    
+}
+
+.grid__item-column {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+
