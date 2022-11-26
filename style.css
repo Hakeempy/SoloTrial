@@ -35,12 +35,6 @@ a {
     transition: opacity 300ms ease;
 }
 
-.nav__link--anchor {
-    margin: 0px 12px;
-    color: #242424;
-    font-weight: 700;
-}
-
 .hover__effect-black:after {
     background-color: black;
 }
