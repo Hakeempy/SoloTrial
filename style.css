@@ -18,6 +18,10 @@ img {
     transition: .4s ease-in-out;
 }
 
+.img-item {
+    height: 100vh;
+}
+
 body {
     margin: 10px 2px;
 }
