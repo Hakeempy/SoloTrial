@@ -190,3 +190,29 @@ footer {
     align-items: center;
     border-radius: 25px;
 }
+
+/* TEXT ANIMATION */
+
+p {
+    text-shadow: 0 0 7px rgba(255, 255, 255, 2.3), 0 0 3px rgba(255, 255, 255, 2.3);
+}
+
+.container {
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation {
+    height: 50px;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.animation > div >div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+}
