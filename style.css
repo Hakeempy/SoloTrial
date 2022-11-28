@@ -215,4 +215,13 @@ p {
 .animation > div >div {
     padding: 0.25rem 0.75rem;
     height: 2.81rem;
+    display: inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.first div {
+    background-color: #20a7d8;
 }
