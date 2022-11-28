@@ -213,7 +213,7 @@ p {
     margin-left: 1rem;
 }
 
-.animation > div >div {
+.animation > div > div {
     padding: 0.25rem 0.75rem;
     height: 2.81rem;
     display: inline-block;
@@ -223,14 +223,14 @@ p {
     animation: text-animation 8s infinite;
 }
 
-.first {
+.first div {
     background-color: #20a7d8;
 }
 
-.second {
+.second div {
     background-color:#CD921E;
   }
-  .third {
+  .third div {
     background-color:#c10528;
   }
 
@@ -246,3 +246,4 @@ p {
     90% {margin-top: 0;}
     100% {margin-top: 0;}
   }
+
