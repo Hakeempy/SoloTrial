@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 section {
@@ -38,6 +38,7 @@ a {
     color: black;
     position: relative;
     transition: opacity 300ms ease;
+    font-size: 18px;
 }
 
 .hover__effect-black:after {
