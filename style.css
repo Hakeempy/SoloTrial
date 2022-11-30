@@ -288,3 +288,14 @@ header:after {
 .header-title, .header-subtitle {
     color: #fff;
 }
+
+.header-subtitle {
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+.header-button {
+    transform: translateZ(.1px);
+    position: relative;
+    z-index: 10;
+}
