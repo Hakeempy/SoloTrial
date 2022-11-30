@@ -257,3 +257,14 @@ p {
     100% {margin-top: 0;}
   }
 
+/* Sign up*/
+
+header {
+    align-items: center;
+    background: #333;
+    display: flex;
+    font-size: 18px;
+    height: 100vh;
+    justify-content: center;
+    
+}
