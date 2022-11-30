@@ -273,6 +273,10 @@ header {
     transform-style: preserve-3d;
 }
 
+header:before {
+    content: "";
+}
+
 header:after {
     background: #F9FCff;
     content: "";
