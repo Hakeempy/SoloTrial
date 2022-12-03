@@ -68,12 +68,15 @@ a {
     background-color: #6C63FF;
     border-radius: 50px;
     width: 100%;
+    z-index: 2;
+    position: fixed;
+    top: 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 .individual {
