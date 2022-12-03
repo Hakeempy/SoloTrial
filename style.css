@@ -105,10 +105,10 @@ button {
 
 }
 
-a:hover {
+/*a:hover {
     color: coral;
     border-bottom: 1px solid black;
-}
+}*/
 
 button:hover {
     background-color: black;
@@ -310,5 +310,3 @@ header:after {
     position: relative;
     z-index: 10;
 }
-
-
