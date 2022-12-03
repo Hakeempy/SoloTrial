@@ -41,7 +41,7 @@ a {
     text-decoration: none;
     color: black;
     position: relative;
-    transition: opacity 300ms ease;
+    /*transition: opacity 300ms ease;*/
     font-size: 18px;
 }
 
@@ -62,6 +62,13 @@ a {
 .hover__effect-black:hover:after {
     width: 100%;
     left: 0;
+}
+
+.s-hover:hover:after {
+    background-color: white;
+    width: 100%;
+    left: 0;
+    
 }
 
 .nav__bar {
