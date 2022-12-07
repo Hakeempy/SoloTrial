@@ -344,3 +344,10 @@ header:after {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.search-bar {
+    position: absolute;
+    height: 30px;
+    top: 0px;
+    right: 0;
+}
