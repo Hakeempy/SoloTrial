@@ -347,13 +347,14 @@ header:after {
 
 .search-bar {
     position: absolute;
+    display: flex;
     border: none;
     height: 100px;
     top: 0px;
-    right: 0;
+    right:600px;
 }
 input {
-    margin-top: 5px;
+    margin-top: 10px;
     border: none;
     height: 30px;
     width: 300px;
