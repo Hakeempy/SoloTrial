@@ -16,7 +16,6 @@ section {
 }
 
 
-
 img {
     color: black;
     height: 120px;
@@ -79,7 +78,7 @@ a:hover {
 .nav__bar {
     background-color: #358588;
     /* border-radius: 50px; */
-    width: 100vw;
+    width: 100%; 
     float: left;
     margin-right: 0;
     z-index: 2;
@@ -93,7 +92,7 @@ nav {
     justify-content: space-between;
     float: left;
     margin-right: 5px;
-    width: 200%;
+    width: 100%;
 }
 
 .individual {
@@ -112,7 +111,7 @@ nav {
     margin-top: 20px;
     right: 0;
     padding: 20px; 
-    float: left;
+    float: right;
     margin-right: 10px;
 }
 
@@ -236,6 +235,7 @@ p {
 }
 
 .container {
+    
     background-color: rgb(38, 53, 56);
     color: #e5e5e5;
     font-size: 2.26rem;
