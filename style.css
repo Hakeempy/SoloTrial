@@ -79,9 +79,9 @@ a:hover {
 
 .nav__bar {
     background-color: #358588;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     width: 100%;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     z-index: 2;
     position: fixed;
     top: 0;
@@ -91,6 +91,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-right: 5px;
+    width: 100%;
 }
 
 .individual {
@@ -137,6 +138,11 @@ button:hover {
 
 #body__container {
     display: flex;
+}
+
+body {
+    z-index: 2;
+    margin-top: 20px;
 }
 
 .text {
@@ -231,7 +237,7 @@ p {
     font-size: 2.26rem;
     margin-top: 110px;
     position: sticky;
-    top: 110px;
+    top: 0;
     z-index: 2;
     text-transform: uppercase;
     display: flex;
