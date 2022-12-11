@@ -376,8 +376,3 @@ input {
 input:focus {
     background-color: grey;
 }
-
-input[type="text"]:focus {
-    width: 300%;
-    transition: width 0.4s ease-in-out;
-}
