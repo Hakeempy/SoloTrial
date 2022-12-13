@@ -43,6 +43,7 @@ a {
     position: relative;
     /*transition: opacity 300ms ease;*/
     font-size: 18px;
+    transition: font-size 3s;
 }
 
 a:hover {
